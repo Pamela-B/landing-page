@@ -1,0 +1,117 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+/* .header, .hero-text, .random-info, .inspiring-quote {
+}
+ */
+
+.dark-bg {
+    background-color: #1F2937;
+}
+
+.container {
+    padding: 0 200px;
+}
+
+.header {
+    justify-content: space-between;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero-text{
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+
+}
+
+.info {
+    padding: 12px 0px;
+}
+
+.info, .right-links {
+    font-size: 18px;
+    color: #f9faf8;
+}
+.left-text {
+    width: 50%;
+}
+
+.right-picture {
+    max-width: 50%;
+}
+
+#pale-blue-dot {
+    max-width: 100%;
+    height: auto;
+}
+
+.random-info {
+    justify-content: space-evenly;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.image-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.picture-text {
+    text-align: center;
+}
+
+.inspiring-quote {
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.author {
+    align-self: flex-end;
+}
+
+.signup {
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    justify-content: center;
+    align-items: center;
+}
