@@ -96,19 +96,59 @@ ul {
     background-color: #e5e7eb;
     padding-top: 120px;
     padding-bottom: 120px;
-    font-size: 16px;
+}
+
+.quote {
+    font-size: 36px;
     font-style: italic;
     font-weight: lighter;
     color: #1f2937;
+
 }
 
 .author {
     align-self: flex-end;
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: 8px;
 }
 
-.signup {
+.outer-signup {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.inner-signup {
     justify-content: center;
     align-items: center;
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: #f9faf8;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.left-signup-text {
+    padding: 3vh 3vw;
+}
+
+.right-signup-button {
+    padding: 3vh 3vw;
+}
+
+.signup-title {
+    font-weight: bolder;
+}
+
+.secondary-text {
+}
+
+.signup-button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: solid 2px;
+    padding: 6px 24px;
 }
 
 .footer {
