@@ -24,8 +24,12 @@ ul {
     background-color: #1F2937;
 }
 
+.blue-border {
+    border-color: #3882f6 !important;
+}
+
 .container {
-    padding: 0 200px;
+    padding: 0 15%;
 }
 
 .header {
@@ -76,8 +80,20 @@ ul {
 }
 
 .random-info {
+    flex-direction: column;
+}
+
+.random-info-title {
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+.random-info-box {
     justify-content: space-evenly;
-    padding-top: 120px;
     padding-bottom: 120px;
 }
 
@@ -87,15 +103,20 @@ ul {
     align-items: center;
 }
 
+.picture {
+    width: 12vw;
+    height: auto;
+}
+
 .picture-text {
     text-align: center;
+    max-width: fit-content;
 }
 
 .inspiring-quote {
     flex-direction: column;
     background-color: #e5e7eb;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 160px 22%;
 }
 
 .quote {
@@ -149,9 +170,14 @@ ul {
     border-radius: 5px;
     border: solid 2px;
     padding: 6px 24px;
+    font-weight: bolder;
 }
 
 .footer {
     justify-content: center;
     align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
