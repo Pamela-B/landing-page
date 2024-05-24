@@ -13,9 +13,7 @@ body {
 
 .header {
     background-color: #1f2937;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 25px;
+    padding: 25px 10% 35px 10%;
     display: flex;
 }
 
@@ -49,7 +47,7 @@ body {
 .hero-left-side h1 {
     font-size: 48px;
     color: #f9faf8;
-    font-weight: extra-bold;
+    font-weight: 600;
     margin: 0px 0px 10px 0px;
 }
 
@@ -75,8 +73,52 @@ button {
     height: auto;
 }
 
+.images-section {
+    padding: 50px 10% 50px 10%;
+}
 
+.images-section h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    color: #1f2937;
+    margin: 15px 0 30px 0;
+}
 
+.group-of-pictures {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.group-of-pictures div {
+    max-width: 200px;
+}
+
+.group-of-pictures p {
+    text-align: center;
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.inspiring-quote {
+    background-color: #e5e7eb;
+    padding: 50px 10% 50px 10%;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author {
+    text-align: right;
+    font-weight: 600;
+    padding: 0 60px;
+    font-size: 26px;
+}
 
 .cta-container {
     background-color: #3882f6;
