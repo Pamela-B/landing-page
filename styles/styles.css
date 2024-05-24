@@ -1,10 +1,3 @@
-/*
-.header, .hero-text, .images-section, .inspiring-quote, .call-to-action, .footer {
-    padding-left: 10%;
-    padding-right: 10%;
-}
-*/
-
 body {
     margin: 0;
     padding: 0;
@@ -13,7 +6,7 @@ body {
 
 .header {
     background-color: #1f2937;
-    padding: 25px 10% 35px 10%;
+    padding: 25px 15% 35px 15%;
     display: flex;
 }
 
@@ -33,10 +26,7 @@ body {
 
 .hero-text {
     background-color: #1f2937;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding: 80px 15% 80px 15%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -74,7 +64,7 @@ button {
 }
 
 .images-section {
-    padding: 50px 10% 50px 10%;
+    padding: 50px 15% 50px 15%;
 }
 
 .images-section h1 {
@@ -104,7 +94,7 @@ button {
 
 .inspiring-quote {
     background-color: #e5e7eb;
-    padding: 50px 10% 50px 10%;
+    padding: 50px 15% 50px 15%;
 }
 
 .quote {
@@ -122,8 +112,34 @@ button {
 
 .cta-container {
     background-color: #3882f6;
+    margin: 80px 15% 80px 15%;
+    padding: 60px;
+    border-radius: 8px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.cta-container h1 {
+    margin: 0;
+    font-size: 26px;
+}
+
+.cta-container p {
+    margin: 0;
 }
 
 .cta-container button {
     border: 2px solid white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 45px 15%;
 }
